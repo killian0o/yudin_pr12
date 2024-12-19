@@ -16,6 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Check for 'qwe in text files
+      - name: Check for 'Hello world in text files
         run: |
           cat text1.txt text2.txt | grep -q 'qwe'
+
